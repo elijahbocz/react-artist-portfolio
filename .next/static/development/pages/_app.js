@@ -101,7 +101,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 6rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #000;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    color: #adadad;\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    text-align: center;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 4rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #000;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    color: #adadad;\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    text-align: center;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -515,7 +515,7 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1.3rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem 1.5rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 1em;\n    color: #a50909;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 10px;\n      padding: 0 10px;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #adadad;\n  }\n  .active {\n    color: #adadad;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem 1.5rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #a50909;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 10px;\n      padding: 0 10px;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #adadad;\n  }\n  .active {\n    color: #adadad;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;

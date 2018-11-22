@@ -4,7 +4,7 @@ const NavStyles = styled.ul`
   margin: 0;
   margin-top: 1.3rem;
   padding: 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   letter-spacing: 0.25rem;
@@ -14,7 +14,7 @@ const NavStyles = styled.ul`
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 0.75rem;
     color: #a50909;
     background: none;
     border: 0;

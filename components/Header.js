@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 const Logo = styled.h1`
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 300;
   letter-spacing: 1rem;
   text-align: center;

@@ -15,6 +15,26 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/sculptures": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/bio": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/paintings": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/contact": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/cv": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
