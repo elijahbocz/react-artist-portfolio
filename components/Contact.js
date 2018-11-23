@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import CenteredDiv from './styles/CenteredDiv';
 
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <CenteredDiv>
         <p>contact me</p>
-      </div>
+      </CenteredDiv>
     );
   }
 }

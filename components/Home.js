@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import CenteredDiv from './styles/CenteredDiv';
 
-class Sculptures extends Component {
+class Home extends Component {
   render() {
     return (
       <CenteredDiv>
-        <p>SculptsComp</p>
+        <p>Home</p>
       </CenteredDiv>
     );
   }
 }
 
-export default Sculptures;
+export default Home;

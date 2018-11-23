@@ -17,7 +17,6 @@ const Logo = styled.h1`
     text-transform: uppercase;
   }
   a:hover {
-    color: #91AA9D;
     cursor: pointer;
   }
   @media (max-width: 1300px) {

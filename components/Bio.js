@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import CenteredDiv from './styles/CenteredDiv';
 
 class Bio extends Component {
   render() {
     return (
-      <div>
+      <CenteredDiv>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae!</p>
-      </div>
+      </CenteredDiv>
     );
   }
 }

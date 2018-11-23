@@ -195,7 +195,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 4rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #FCFFF5;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    color: #91AA9D;\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    text-align: center;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 4rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #FCFFF5;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    text-align: center;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -230,32 +230,32 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledHeader, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 46
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 47
         },
         __self: this
       }, "Artist Name"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         },
         __self: this
       }));
