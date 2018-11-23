@@ -247,7 +247,7 @@ var Meta = function Meta() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ActiveLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ActiveLink */ "./components/ActiveLink.js");
+/* harmony import */ var _ActiveLink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ActiveLink */ "./components/ActiveLink.js");
 /* harmony import */ var _styles_NavStyles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/NavStyles */ "./components/styles/NavStyles.js");
 var _jsxFileName = "C:\\Users\\Elijah\\Desktop\\webDev\\git\\repo\\react-artist-portfolio\\components\\Nav.js";
 
@@ -261,7 +261,7 @@ var Nav = function Nav() {
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/",
     __source: {
@@ -275,7 +275,7 @@ var Nav = function Nav() {
       lineNumber: 8
     },
     __self: this
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/sculptures",
     __source: {
@@ -289,7 +289,7 @@ var Nav = function Nav() {
       lineNumber: 11
     },
     __self: this
-  }, "Sculptures")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Sculptures")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/paintings",
     __source: {
@@ -303,7 +303,7 @@ var Nav = function Nav() {
       lineNumber: 14
     },
     __self: this
-  }, "Paintings")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Paintings")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/bio",
     __source: {
@@ -317,9 +317,9 @@ var Nav = function Nav() {
       lineNumber: 17
     },
     __self: this
-  }, "Bio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Bio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
-    href: "/cv",
+    href: "/contact",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -329,20 +329,6 @@ var Nav = function Nav() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
-    },
-    __self: this
-  }, "CV")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    activeClassName: "active",
-    href: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
     },
     __self: this
   }, "Contact")));

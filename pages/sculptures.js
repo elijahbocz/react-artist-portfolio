@@ -1,9 +1,10 @@
 import React from 'react';
+import Sculptures from '../components/Sculptures';
 
 const sculptures = () => {
   return (
     <div>
-      <p>sculpts</p>
+      <Sculptures />
     </div>
   );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import Bio from '../components/Bio';
 
 const bio = () => {
   return (
     <div>
-      <p>bio</p>
+      <Bio />
     </div>
   );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import Paintings from '../components/Paintings';
 
 const paintings = () => {
   return (
     <div>
-      <p>paintings</p>
+      <Paintings />
     </div>
   );
 };

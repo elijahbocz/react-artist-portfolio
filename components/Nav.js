@@ -16,9 +16,6 @@ const Nav = () => (
     <Link activeClassName="active" href="/bio">
       <a>Bio</a>
     </Link>
-    <Link activeClassName="active" href="/cv">
-      <a>CV</a>
-    </Link>
     <Link activeClassName="active" href="/contact">
       <a>Contact</a>
     </Link>
