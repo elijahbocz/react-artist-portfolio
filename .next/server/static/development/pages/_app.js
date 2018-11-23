@@ -323,7 +323,7 @@ var Meta = function Meta() {
       lineNumber: 9
     },
     __self: this
-  }, "Chase Lawrence"));
+  }, "Artist Name"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Meta);
@@ -611,7 +611,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem 1.5rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #a50909;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 10px;\n      padding: 0 10px;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #adadad;\n  }\n  .active {\n    color: #adadad;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem 1.5rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #000;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 10px;\n      padding: 0 10px;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #adadad;\n  }\n  .active {\n    color: #adadad;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
