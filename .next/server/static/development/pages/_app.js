@@ -195,7 +195,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 4rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #000;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    color: #adadad;\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    text-align: center;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 4rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #FCFFF5;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    color: #91AA9D;\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    text-align: center;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -467,6 +467,16 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: EBGaramond;\n    src: url(\"https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato\");\n    /* format: ('woff2'); */\n    font-weight: normal;\n    font-style: normal;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 16px;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-family: \"EB Garamond\", serif;\n    font-size: 1.5rem;\n    line-height: 1;\n    background: #193441;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject2() {
   var data = _taggedTemplateLiteral(["\n  max-width: ", ";\n  margin: 0 auto;\n  padding: 2rem;\n"]);
 
@@ -478,7 +488,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  background: white;\n  color: ", ";\n"]);
+  var data = _taggedTemplateLiteral(["\n  background: #193441;\n  color: #FCFFF5;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -500,34 +510,9 @@ var theme = {
   maxWidth: '1000px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)'
 };
-var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject(), "props.theme.black");
-var Inner = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject2(), "props => props.theme.maxWidth"); // injectGlobal`
-//   @font-face {
-//     font-family: EBGaramond;
-//     src: url("https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato");
-//     /* format: ('woff2'); */
-//     font-weight: normal;
-//     font-style: normal;
-//   }
-//   html {
-//     box-sizing: border-box;
-//     font-size: 10px;
-//   }
-//   *, *:before, *:after {
-//     box-sizing: inherit;
-//   }
-//   body {
-//     padding: 0;
-//     margin: 0;
-//     font-family: "EB Garamond", serif;
-//     font-size: 1.5rem;
-//     line-height: 2;
-//   }
-//   a {
-//     text-decoration: none;
-//     color: ${theme.black};
-//   }
-// `;
+var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject());
+var Inner = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject2(), "props => props.theme.maxWidth");
+Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["injectGlobal"])(_templateObject3(), theme.black);
 
 var Page =
 /*#__PURE__*/
@@ -547,31 +532,31 @@ function (_Component) {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledPage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 59
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 61
         },
         __self: this
       }, this.props.children)));
@@ -597,7 +582,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem 1.5rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #000;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 10px;\n      padding: 0 10px;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #adadad;\n  }\n  .active {\n    color: #adadad;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #FCFFF5;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 10px;\n      padding: 0 10px;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #91AA9D;\n  }\n  .active {\n    color: #91AA9D;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;

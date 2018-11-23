@@ -12,8 +12,8 @@ const theme = {
 };
 
 const StyledPage = styled.div`
-  background: white;
-  color: ${`props.theme.black`};
+  background: #193441;
+  color: #FCFFF5;
 `;
 
 const Inner = styled.div`
@@ -22,33 +22,34 @@ const Inner = styled.div`
   padding: 2rem;
 `;
 
-// injectGlobal`
-//   @font-face {
-//     font-family: EBGaramond;
-//     src: url("https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato");
-//     /* format: ('woff2'); */
-//     font-weight: normal;
-//     font-style: normal;
-//   }
-//   html {
-//     box-sizing: border-box;
-//     font-size: 10px;
-//   }
-//   *, *:before, *:after {
-//     box-sizing: inherit;
-//   }
-//   body {
-//     padding: 0;
-//     margin: 0;
-//     font-family: "EB Garamond", serif;
-//     font-size: 1.5rem;
-//     line-height: 2;
-//   }
-//   a {
-//     text-decoration: none;
-//     color: ${theme.black};
-//   }
-// `;
+injectGlobal`
+  @font-face {
+    font-family: EBGaramond;
+    src: url("https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato");
+    /* format: ('woff2'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+  html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    background: #193441;
+  }
+  a {
+    text-decoration: none;
+    color: ${theme.black};
+  }
+`;
 
 class Page extends Component {
   render() {

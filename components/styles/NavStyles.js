@@ -10,12 +10,12 @@ const NavStyles = styled.ul`
   letter-spacing: 0.25rem;
   a,
   button {
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 0.75rem;
-    color: #000;
+    color: #FCFFF5;
     background: none;
     border: 0;
     cursor: pointer;
@@ -36,10 +36,10 @@ const NavStyles = styled.ul`
     font-size: 1.2rem;
   }
   a:hover {
-    color: #adadad;
+    color: #91AA9D;
   }
   .active {
-    color: #adadad;
+    color: #91AA9D;
   }
 `;
 

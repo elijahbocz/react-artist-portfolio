@@ -12,12 +12,12 @@ const Logo = styled.h1`
   position: relative;
   z-index: 2;
   a {
-    color: #000;
+    color: #FCFFF5;
     text-decoration: none;
     text-transform: uppercase;
   }
   a:hover {
-    color: #adadad;
+    color: #91AA9D;
     cursor: pointer;
   }
   @media (max-width: 1300px) {
