@@ -371,7 +371,7 @@ var Nav = function Nav() {
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
-    href: "/sculptures",
+    href: "/photographs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -383,7 +383,7 @@ var Nav = function Nav() {
       lineNumber: 11
     },
     __self: this
-  }, "Sculptures")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "Photographs")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/paintings",
     __source: {

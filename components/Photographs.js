@@ -5,7 +5,7 @@ class Sculptures extends Component {
   render() {
     return (
       <CenteredDiv>
-        <p>SculptsComp</p>
+        <p>photos</p>
       </CenteredDiv>
     );
   }

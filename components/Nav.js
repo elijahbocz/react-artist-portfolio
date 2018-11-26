@@ -7,8 +7,8 @@ const Nav = () => (
     <Link activeClassName="active" href="/">
       <a>Home</a>
     </Link>
-    <Link activeClassName="active" href="/sculptures">
-      <a>Sculptures</a>
+    <Link activeClassName="active" href="/photographs">
+      <a>Photographs</a>
     </Link>
     <Link activeClassName="active" href="/paintings">
       <a>Paintings</a>

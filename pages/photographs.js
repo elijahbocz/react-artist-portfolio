@@ -1,10 +1,10 @@
 import React from 'react';
-import Sculptures from '../components/Sculptures';
+import Photographs from '../components/Photographs';
 
 const sculptures = () => {
   return (
     <div>
-      <Sculptures />
+      <Photographs />
     </div>
   );
 };
