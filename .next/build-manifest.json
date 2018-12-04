@@ -19,15 +19,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/contact": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/bio": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/photographs": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
