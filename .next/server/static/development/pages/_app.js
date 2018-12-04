@@ -468,7 +468,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: EBGaramond;\n    src: url(\"https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato\");\n    /* format: ('woff2'); */\n    font-weight: normal;\n    font-style: normal;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 16px;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-family: \"EB Garamond\", serif;\n    font-size: 1.5rem;\n    line-height: 1;\n    background: #193441;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: EBGaramond;\n    src: url(\"https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato\");\n    /* format: ('woff2'); */\n    font-weight: normal;\n    font-style: normal;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 16px;\n    height: 100%;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-family: \"EB Garamond\", serif;\n    font-size: 1.5rem;\n    line-height: 1;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -488,7 +488,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  background: #193441;\n  color: #FCFFF5;\n"]);
+  var data = _taggedTemplateLiteral(["\n  color: #fcfff5;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background: rgb(25, 52, 65);\n  background-image: linear-gradient(\n    160deg,\n    rgba(25, 52, 65, 1) 0%,\n    rgba(25, 52, 65, 1) 33%,\n    rgba(62, 96, 111, 1) 100%\n  );\n  height: 100%;\n  margin: 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -504,9 +504,6 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var theme = {
-  red: '#a50909',
-  grey: '#adadad',
-  black: '#000',
   maxWidth: '1000px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)'
 };
@@ -532,31 +529,31 @@ function (_Component) {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledPage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 66
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 67
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 68
         },
         __self: this
       }, this.props.children)));
