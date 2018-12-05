@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CenteredDiv from './styles/CenteredDiv';
 import MasonryDiv from './styles/Masonry';
 
 class Paintings extends Component {

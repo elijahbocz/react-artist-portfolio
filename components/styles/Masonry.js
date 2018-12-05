@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 const MasonryDiv = styled.div`
   min-height: 1000px;
+  margin: auto;
   
   .columns {
     column-width: 320px;
     column-gap: 15px;
-    width: 90%;
+    width: 100%;
     max-width: 1100px;
     margin: auto;
   }
@@ -47,6 +48,7 @@ const MasonryDiv = styled.div`
     .columns {
       column-gap: 0px;
       margin: 0;
+      padding: 0;
     }
     .columns figure {
       margin: 0;
