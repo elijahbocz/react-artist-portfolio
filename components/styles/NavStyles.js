@@ -15,13 +15,14 @@ const NavStyles = styled.ul`
     text-transform: uppercase;
     font-weight: 300;
     font-size: 0.75rem;
-    color: #FCFFF5;
+    color: #fcfff5;
     background: none;
     border: 0;
     cursor: pointer;
     @media (max-width: 700px) {
-      font-size: 10px;
+      font-size: 8px;
       padding: 0 10px;
+      margin: 0rem;
     }
     &:hover,
     &:focus {
@@ -31,15 +32,20 @@ const NavStyles = styled.ul`
       }
     }
   }
+  @media (max-width: 700px) {
+    padding: 0rem;
+    letter-spacing: .15rem;
+  }
+
   @media (max-width: 1300px) {
     width: 100%;
     font-size: 1.2rem;
   }
   a:hover {
-    color: #91AA9D;
+    color: #91aa9d;
   }
   .active {
-    color: #91AA9D;
+    color: #91aa9d;
   }
 `;
 

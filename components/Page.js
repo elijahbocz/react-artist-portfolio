@@ -10,17 +10,8 @@ const theme = {
 
 const StyledPage = styled.div`
   color: #fcfff5;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: rgb(25, 52, 65);
-  background-image: linear-gradient(
-    160deg,
-    rgba(25, 52, 65, 1) 0%,
-    rgba(25, 52, 65, 1) 33%,
-    rgba(62, 96, 111, 1) 100%
-  );
-  height: 100%;
   margin: 0;
+  height: 100%;
 `;
 
 const Inner = styled.div`
@@ -41,7 +32,6 @@ injectGlobal`
     box-sizing: border-box;
     font-size: 16px;
     height: 100%;
-    background: rgb(25, 52, 65);
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -52,6 +42,16 @@ injectGlobal`
     font-family: "EB Garamond", serif;
     font-size: 1.5rem;
     line-height: 1;
+    height: 100%;
+    background: rgb(25, 52, 65);
+    background: linear-gradient(
+    160deg,
+    rgba(25, 52, 65, 1) 0%,
+    rgba(25, 52, 65, 1) 33%,
+    rgba(62, 96, 111, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   }
   a {
     text-decoration: none;

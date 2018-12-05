@@ -128,7 +128,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  width: 50%;\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 50%;\n\n  @media screen and (max-width: 1300px) {\n    width: 70%;\n  }\n\n  @media screen and (max-width: 750px) {\n    width: 90%;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -161,14 +161,14 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_CenteredDiv__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HomeImage, {
         src: "https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa4.jpg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 21
         },
         __self: this
       }));
@@ -194,7 +194,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  text-align: center;\n  min-height: 100vh;\n"]);
+  var data = _taggedTemplateLiteral(["\n  text-align: center;\n"]);
 
   _templateObject = function _templateObject() {
     return data;

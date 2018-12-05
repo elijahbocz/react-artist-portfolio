@@ -468,7 +468,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: EBGaramond;\n    src: url(\"https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato\");\n    /* format: ('woff2'); */\n    font-weight: normal;\n    font-style: normal;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 16px;\n    height: 100%;\n    background: rgb(25, 52, 65);\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-family: \"EB Garamond\", serif;\n    font-size: 1.5rem;\n    line-height: 1;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: EBGaramond;\n    src: url(\"https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato\");\n    /* format: ('woff2'); */\n    font-weight: normal;\n    font-style: normal;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 16px;\n    height: 100%;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-family: \"EB Garamond\", serif;\n    font-size: 1.5rem;\n    line-height: 1;\n    height: 100%;\n    background: rgb(25, 52, 65);\n    background: linear-gradient(\n    160deg,\n    rgba(25, 52, 65, 1) 0%,\n    rgba(25, 52, 65, 1) 33%,\n    rgba(62, 96, 111, 1) 100%\n  );\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -488,7 +488,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  color: #fcfff5;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background: rgb(25, 52, 65);\n  background-image: linear-gradient(\n    160deg,\n    rgba(25, 52, 65, 1) 0%,\n    rgba(25, 52, 65, 1) 33%,\n    rgba(62, 96, 111, 1) 100%\n  );\n  height: 100%;\n  margin: 0;\n"]);
+  var data = _taggedTemplateLiteral(["\n  color: #fcfff5;\n  margin: 0;\n  height: 100%;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -579,7 +579,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #FCFFF5;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 10px;\n      padding: 0 10px;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #91AA9D;\n  }\n  .active {\n    color: #91AA9D;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #fcfff5;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 8px;\n      padding: 0 10px;\n      margin: 0rem;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 700px) {\n    padding: 0rem;\n    letter-spacing: .15rem;\n  }\n\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #91aa9d;\n  }\n  .active {\n    color: #91aa9d;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;

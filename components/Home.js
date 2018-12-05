@@ -4,6 +4,14 @@ import styled from 'styled-components';
 
 const HomeImage = styled.img`
   width: 50%;
+
+  @media screen and (max-width: 1300px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: 90%;
+  }
 `;
 
 class Home extends Component {
