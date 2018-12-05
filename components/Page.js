@@ -31,7 +31,8 @@ injectGlobal`
   html {
     box-sizing: border-box;
     font-size: 16px;
-    height: 100%;
+    height: 100vh;
+    min-height: 100vh;
   }
   *, *:before, *:after {
     box-sizing: inherit;

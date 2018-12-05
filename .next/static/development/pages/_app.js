@@ -373,7 +373,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: EBGaramond;\n    src: url(\"https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato\");\n    /* format: ('woff2'); */\n    font-weight: normal;\n    font-style: normal;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 16px;\n    height: 100%;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-family: \"EB Garamond\", serif;\n    font-size: 1.5rem;\n    line-height: 1;\n    height: 100%;\n    background: rgb(25, 52, 65);\n    background: linear-gradient(\n    160deg,\n    rgba(25, 52, 65, 1) 0%,\n    rgba(25, 52, 65, 1) 33%,\n    rgba(62, 96, 111, 1) 100%\n  );\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: EBGaramond;\n    src: url(\"https://fonts.googleapis.com/css?family=EB+Garamond|Roboto|Lato\");\n    /* format: ('woff2'); */\n    font-weight: normal;\n    font-style: normal;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 16px;\n    height: 100vh;\n    min-height: 100vh;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-family: \"EB Garamond\", serif;\n    font-size: 1.5rem;\n    line-height: 1;\n    height: 100%;\n    background: rgb(25, 52, 65);\n    background: linear-gradient(\n    160deg,\n    rgba(25, 52, 65, 1) 0%,\n    rgba(25, 52, 65, 1) 33%,\n    rgba(62, 96, 111, 1) 100%\n  );\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -434,31 +434,31 @@ function (_Component) {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 66
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledPage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 68
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 69
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         },
         __self: this
       }, this.props.children)));
