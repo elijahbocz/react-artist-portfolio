@@ -59,7 +59,7 @@ class ContactForm extends Component {
   render() {
     const { name, email, message } = this.state;
     return (
-      <StyledForm onSubmit={this.handleSubmit} class="App-form">
+      <StyledForm onSubmit={this.handleSubmit} className="App-form">
         <p className="contact-separator" />
         <p className="form-item">
           <label>
