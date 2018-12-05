@@ -1,6 +1,34 @@
-/*eslint-disable no-unused-vars*/
 import React, { Component } from 'react';
-/*eslint-enable no-unused-vars*/
+import styled from 'styled-components';
+
+const StyledForm = styled.form`
+  margin: 0;
+  margin-top: 1.3rem;
+  padding: 0;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 0.1rem;
+
+  .form-item {
+    font-size: 14px;
+    padding-bottom: 1rem;
+  }
+
+  textarea {
+    width: 250px;
+    height: 75px;
+  }
+
+  .Contact-button {
+    background: #fcfff5;
+    color: #193441;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+`;
 
 const encode = data => {
   return Object.keys(data)
@@ -31,7 +59,7 @@ class ContactForm extends Component {
   render() {
     const { name, email, message } = this.state;
     return (
-      <form onSubmit={this.handleSubmit} class="App-form">
+      <StyledForm onSubmit={this.handleSubmit} class="App-form">
         <p className="contact-separator" />
         <p className="form-item">
           <label>
@@ -66,9 +94,11 @@ class ContactForm extends Component {
           </label>
         </p>
         <p>
-          <button type="submit" className="Contact-button">Send</button>
+          <button type="submit" className="Contact-button">
+            Send
+          </button>
         </p>
-      </form>
+      </StyledForm>
     );
   }
 }
