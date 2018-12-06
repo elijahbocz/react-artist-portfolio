@@ -101,7 +101,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 4rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #FCFFF5;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    text-align: center;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 4rem;\n  font-weight: 300;\n  letter-spacing: 1rem;\n  text-align: center;\n  padding: 1rem;\n  position: relative;\n  z-index: 2;\n  a {\n    color: #FCFFF5;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n  a:hover {\n    cursor: pointer;\n  }\n  @media (max-width: 1300px) {\n    margin: 0;\n    padding: 2rem 2rem 0 2rem;\n    text-align: center;\n  }\n\n  @media (max-width: 700px) {\n    padding: 2rem 2rem 0 2rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -136,32 +136,32 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledHeader, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 52
         },
         __self: this
       }, "Artist Name"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 55
         },
         __self: this
       }));
@@ -483,7 +483,7 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #fcfff5;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 8px;\n      padding: 0 10px;\n      margin: 0rem;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 700px) {\n    padding: 0rem;\n    letter-spacing: .15rem;\n  }\n\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #91aa9d;\n  }\n  .active {\n    color: #91aa9d;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin: 0;\n  margin-top: 1.3rem;\n  padding: 0;\n  font-size: 1rem;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  letter-spacing: 0.25rem;\n  a,\n  button {\n    padding: 1rem;\n    text-decoration: none;\n    text-transform: uppercase;\n    font-weight: 300;\n    font-size: 0.75rem;\n    color: #fcfff5;\n    background: none;\n    border: 0;\n    cursor: pointer;\n    @media (max-width: 700px) {\n      font-size: 8px;\n      padding: 0 8px;\n      margin: 0rem;\n    }\n    &:hover,\n    &:focus {\n      outline: none;\n      &:after {\n        width: calc(100% - 60px);\n      }\n    }\n  }\n  @media (max-width: 700px) {\n    padding: 0rem;\n    letter-spacing: .15rem;\n  }\n\n  @media (max-width: 1300px) {\n    width: 100%;\n    font-size: 1.2rem;\n  }\n  a:hover {\n    color: #91aa9d;\n  }\n  .active {\n    color: #91aa9d;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;

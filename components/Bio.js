@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const StyledBio = styled.div`
   margin: 0;
   margin-top: 1.3rem;
-  padding: 0 7rem 1rem 7rem;
+  padding: 0 20rem 1rem 20rem;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   text-align: center;
