@@ -5,8 +5,8 @@ import styled from 'styled-components';
 const HomeImage = styled.img`
   width: 25%;
 
-  @media screen and (max-width: 1300px) {
-    width: 80%;
+  @media screen and (max-width: 1400px) {
+    width: 50%;
   }
 
   @media screen and (max-width: 750px) {
