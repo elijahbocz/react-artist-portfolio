@@ -4,17 +4,20 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 const Logo = styled.h1`
+  display: block;
   font-size: 4rem;
   font-weight: 300;
   letter-spacing: 1rem;
+  
   text-align: center;
-  padding: 1rem;
   position: relative;
   z-index: 2;
+
   a {
     color: #FCFFF5;
     text-decoration: none;
     text-transform: uppercase;
+    margin-left: 1rem;
   }
   a:hover {
     cursor: pointer;
