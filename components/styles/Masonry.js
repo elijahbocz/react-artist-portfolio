@@ -57,7 +57,7 @@ const MasonryDiv = styled.div`
     .columns figure {
       border: none;
       box-shadow: none;
-      padding-bottom: 0;
+      padding-bottom: 1rem;
       margin: 0;
     }
     .columns figure img {
