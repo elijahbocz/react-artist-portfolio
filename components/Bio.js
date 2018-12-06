@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const StyledBio = styled.div`
   margin: 0;
   margin-top: 1.3rem;
-  padding: 0 5rem 1rem 5rem;
+  padding: 0 7rem 1rem 7rem;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -15,8 +15,8 @@ const StyledBio = styled.div`
     padding: 0;
   }
 
-  .section-one-p {
-    padding: 0 1rem;
+  .section-one p {
+    padding-right: 2rem;
   }
 
   .section-one img {
@@ -32,9 +32,12 @@ const StyledBio = styled.div`
     width: 50%;
   }
 
+  .separator {
+    display: none;
+  }
+
   @media (max-width: 1300px) {
-    font-size: 0.75rem;
-    display: inline;
+    padding: 0 4rem 1rem 4rem;
 
     .section-one img {
       width: 100%;
@@ -44,6 +47,22 @@ const StyledBio = styled.div`
       width: 70%;
     }
   }
+
+  @media (max-width: 700px) {
+    padding: 0;
+    .section-one {
+      display: inline;
+    }
+
+    .section-two {
+      display: inline;
+    }
+
+    .section-two img {
+      width: 100%;
+    }
+  }
+
 `;
 
 class Bio extends Component {
@@ -51,14 +70,12 @@ class Bio extends Component {
     return (
       <StyledBio>
         <div className="section-one">
-          <div className="section-one-p">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
               facilis a magni expedita sit, itaque placeat corporis, ratione
               ducimus quis iste. Fuga voluptatum autem libero. Harum deserunt
               fugiat ad dicta.
             </p>
-          </div>
           <div className>
             <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1544027295/artwork/artist-portfolio/artist1.jpg" />
           </div>

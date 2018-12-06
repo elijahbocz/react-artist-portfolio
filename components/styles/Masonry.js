@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const MasonryDiv = styled.div`
   min-height: 1000px;
   margin: auto;
+  padding: 0 3rem;
   
   .columns {
     column-width: 320px;
@@ -42,9 +43,14 @@ const MasonryDiv = styled.div`
     text-decoration: none;
     transition: 0.4s color;
   }
+  @media (max-width: 1300px) {
+    padding: 1rem;
+  }
 
-  @media screen and (max-width: 750px) {
-    margin: 1rem;
+  @media (max-width: 750px) {
+    margin: 0;
+    padding: 0;
+
     .columns {
       column-gap: 0px;
       margin: 0;
@@ -57,7 +63,7 @@ const MasonryDiv = styled.div`
     .columns figure {
       border: none;
       box-shadow: none;
-      padding-bottom: 1rem;
+      padding-bottom: 0.5rem;
       margin: 0;
     }
     .columns figure img {
