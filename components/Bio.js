@@ -20,6 +20,8 @@ const StyledBio = styled.div`
   }
 
   .section-one img {
+    border: 0px solid black;
+    border-radius: 4px;
     width: 100%;
   }
 
@@ -28,7 +30,8 @@ const StyledBio = styled.div`
   }
 
   .section-two img {
-    padding: 1rem;
+    border: 0px solid black;
+    border-radius: 4px;
     width: 50%;
   }
 

@@ -3,10 +3,10 @@ import CenteredDiv from './styles/CenteredDiv';
 import styled from 'styled-components';
 
 const HomeImage = styled.img`
-  width: 50%;
+  width: 25%;
 
   @media screen and (max-width: 1300px) {
-    width: 100%;
+    width: 80%;
   }
 
   @media screen and (max-width: 750px) {
@@ -18,7 +18,7 @@ class Home extends Component {
   render() {
     return (
       <CenteredDiv>
-        <HomeImage src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa4.jpg" />
+        <HomeImage src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953385/artwork/artist-portfolio/ph4.jpg" />
       </CenteredDiv>
     );
   }

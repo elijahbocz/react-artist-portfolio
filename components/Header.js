@@ -8,7 +8,6 @@ const Logo = styled.h1`
   font-size: 4rem;
   font-weight: 300;
   letter-spacing: 1rem;
-  
   text-align: center;
   position: relative;
   z-index: 2;
