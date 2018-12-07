@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const MasonryDiv = styled.div`
-  min-height: 1000px;
+  min-height: 100vh;
   margin: auto;
   padding: 0 3rem;
   
