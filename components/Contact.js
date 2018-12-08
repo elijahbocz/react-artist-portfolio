@@ -21,12 +21,15 @@ const StyledForm = styled.form`
   }
 
   .Contact-button {
-    background: #fcfff5;
+    background: #FCFFF5;
     color: #193441;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+  }
+  .Contact-button:hover {
+    opacity: .8;
   }
 `;
 

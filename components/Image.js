@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Modal from './Modal';
 import styled from 'styled-components';
 
-const StyledButton = styled.button`
+const StyledAnchor = styled.a`
   padding: 0;
   margin: 0;
   border: none;
 
   img {
-    width: 100%;
+    width: 50%;
   }
 `;
 
@@ -31,9 +31,9 @@ class Image extends Component {
           <p>Modal</p>
           <p>Data</p>
         </Modal>
-        <StyledButton type="button" onClick={this.showModal}>
+        <StyledAnchor onClick={this.showModal}>
           <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa7.jpg" />
-        </StyledButton>
+        </StyledAnchor>
       </main>
     );
   }
