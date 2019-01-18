@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Modal from "./Modal";
+import RUModal from "./RUModal";
 import styled from "styled-components";
 
 const StyledAnchor = styled.a`
@@ -14,7 +14,7 @@ const StyledAnchor = styled.a`
   }
 `;
 
-class Image extends Component {
+class Image2 extends Component {
   state = { show: false };
 
   showModal = () => {
@@ -29,20 +29,9 @@ class Image extends Component {
     return (
       <main>
         <h1>React Modal</h1>
+
         <div>
-          <Modal
-            show={this.state.show}
-            handleClose={this.hideModal}
-            imageURL={
-              "https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa7.jpg"
-            }
-          />
-          <StyledAnchor onClick={this.showModal}>
-            <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa7.jpg" />
-          </StyledAnchor>
-        </div>
-        <div>
-          <Modal
+          <RUModal
             show={this.state.show}
             handleClose={this.hideModal}
             imageURL={
@@ -53,9 +42,24 @@ class Image extends Component {
             <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa4.jpg" />
           </StyledAnchor>
         </div>
+        <div>
+          <RUModal
+            show={this.state.show}
+            handleClose={this.hideModal}
+            imageURL={
+              "https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa7.jpg"
+            }
+          >
+            {" "}
+            <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa7.jpg" />
+          </RUModal>
+          <StyledAnchor onClick={this.showModal}>
+            <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953365/artwork/artist-portfolio/pa7.jpg" />
+          </StyledAnchor>
+        </div>
       </main>
     );
   }
 }
 
-export default Image;
+export default Image2;
