@@ -28,7 +28,7 @@ class Image2 extends Component {
   render() {
     return (
       <main>
-        <h1>React Modal</h1>
+        <p>React Modal</p>
 
         <div>
           <RUModal

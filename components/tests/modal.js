@@ -1,17 +1,34 @@
 import React, { Component } from 'react';
-import MasonryDiv from './styles/Masonry';
+import MasonryDiv from '../styles/Masonry';
+import ModalImage from 'react-modal-image';
 
-class Sculptures extends Component {
+class Modal extends Component {
   render() {
     return (
       <MasonryDiv>
         <div className="columns">
           <figure>
-            <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953385/artwork/artist-portfolio/ph4.jpg" />
+            <ModalImage
+              small={
+                'https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953385/artwork/artist-portfolio/ph4.jpg'
+              }
+              large={
+                'https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953385/artwork/artist-portfolio/ph4.jpg'
+              }
+              alt="test"
+            />
           </figure>
 
           <figure>
-            <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953384/artwork/artist-portfolio/ph3.jpg" />
+            <ModalImage
+              small={
+                'https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953384/artwork/artist-portfolio/ph3.jpg'
+              }
+              large={
+                'https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953384/artwork/artist-portfolio/ph3.jpg'
+              }
+              alt="test"
+            />
           </figure>
 
           <figure>
@@ -39,4 +56,4 @@ class Sculptures extends Component {
   }
 }
 
-export default Sculptures;
+export default Modal;

@@ -1,10 +1,10 @@
 import React from 'react';
-import Image2 from '../components/Image2';
+import Modal from '../components/tests/modal';
 
 const test = () => {
   return (
     <div>
-      <Image2 />      
+      <Modal />      
     </div>
   );
 };

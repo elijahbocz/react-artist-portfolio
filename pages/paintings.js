@@ -1,5 +1,5 @@
 import React from 'react';
-import Paintings from '../components/Paintings';
+import Paintings from '../components/main/Paintings';
 
 const paintings = () => {
   return (

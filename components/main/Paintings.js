@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MasonryDiv from './styles/Masonry';
+import MasonryDiv from '../styles/Masonry';
 
 class Paintings extends Component {
   render() {

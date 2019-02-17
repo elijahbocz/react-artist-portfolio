@@ -1,5 +1,5 @@
 import React from 'react';
-import Photographs from '../components/Photographs';
+import Photographs from '../components/main/Photographs';
 
 const sculptures = () => {
   return (

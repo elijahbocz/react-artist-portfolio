@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider, injectGlobal } from 'styled-components';
-import Header from './Header';
+import Header from './layout/Header';
 import Meta from './Meta';
-import Footer from './Footer';
+import Footer from './layout/Footer';
 
 const theme = {
   maxWidth: '1000px',
