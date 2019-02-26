@@ -23,10 +23,6 @@ class Sculptures extends Component {
           </figure>
 
           <figure>
-            <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953384/artwork/artist-portfolio/ph7.jpg" />
-          </figure>
-
-          <figure>
             <img src="https://res.cloudinary.com/elijahboatscloud/image/upload/v1543953383/artwork/artist-portfolio/ph5.jpg" />
           </figure>
 
