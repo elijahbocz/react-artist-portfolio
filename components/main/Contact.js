@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const StyledForm = styled.form`
-  margin: 0;
+  margin: 0 18rem;
   margin-top: 1.3rem;
   padding: 0;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  letter-spacing: 0.1rem;
-  
+  letter-spacing: 0.1rem;  
 
   .form-outline {
     margin: 0 10rem;
